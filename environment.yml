@@ -1,0 +1,45 @@
+name: py39
+channels:
+ - conda-forge
+dependencies:
+ - python=3.9.*
+ - numpy=1.19.*
+ - sqlalchemy=1.3.*
+ - matplotlib=3.3.*
+ - netcdf4
+ - cartopy
+ - hdf4
+ - pandas=1.1.*
+ - progressbar2
+ - xarray
+ - dask
+ - jupyter
+ - arrow
+ - bottleneck
+ - coverage
+ - ipython
+ - jupyterlab
+ - lxml
+ - mocsy 
+ - pingouin
+ - pykrige
+ - pytest
+ - pytz
+ - python-dateutil
+ - pyyaml
+ - oyaml
+ - seaborn
+ - scipy
+ - scikit-learn
+ - cmocean
+ - openpyxl
+ - f90nml
+ - gsw
+ - papermill
+ - pip
+ - windrose
+ - gstools
+# conda env create -f py39.yml
+# conda activate py39
+# pip install --user --editable /data/eolson/results/MEOPAR/tools/SalishSeaTools
+# python -m ipykernel install --user --name py39 --display-name "Python (py39)"
