@@ -41,5 +41,5 @@ dependencies:
  - gstools
 # conda env create -f py39.yml
 # conda activate py39
-# pip install --user --editable /data/eolson/results/MEOPAR/tools/SalishSeaTools
+# python -m pip install -e "git+https://github.com/SalishSeaCast/tools#egg=SalishSeaTools&subdirectory=SalishSeaTools"
 # python -m ipykernel install --user --name py39 --display-name "Python (py39)"
